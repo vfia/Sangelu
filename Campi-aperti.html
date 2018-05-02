@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style type="text/css">
+		img {
+			height: 400px;
+		}
+		nav {
+			margin-bottom: 20px;
+			margin-top: 20px;
+		}
+    div.row > div { 
+      margin-top: 30px;
+      margin-bottom: 30px
+       }
+       h1 {
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        }
+        body { 
+                   background-image: url('images/sfondo.jpeg');
+                   background-repeat: no-repeat;
+                   background-size: cover;
+        }
+        div.row {
+            background-color: rgba(0,0,0,0.8);
+                  color: white;
+                  margin: 20px
+                   }
+	</style>
+	<title></title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+</head>
+<body>
+
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="#">S'Angelu</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="dove-trovarci.html">Dove trovarci</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Scopri di più
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="Chi-siamo.html">Chi siamo</a>
+          <a class="dropdown-item" href="I-nostri-prodotti.html">I nostri prodotti</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="Campi-aperti.html">Campi aperti</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#">Disabled</a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+ </div>
+    </div>
+  <div class="container">
+  <div class="row">
+    <div class="col-sm">
+      "Campi Aperti" si svolge la domenica mattina presso la nostra azienda. L'evento consiste nell'ospitare un max di 10 persone che potranno visitare i campi e i nostri locali di produzione, raccogliere personalmente le bacche di mirto e degustare i nostri prodotti. 
+      Le giornate Campi aperti variano a seconda della stagione (la raccolta avviene solamente in autunno), perciò per essere aggiornato sui programmi e le novità iscriviti alla nostra newsletter. 
+      Inoltre potrai prenotare una visita guidata nei punti di interesse vicini: Grotte San Giovanni, Nuraghe Sa Domu de S'Orcu, Masua, Iglesias, Grotte su Mannau, Tempio di Antas e tanto altro ancora.
+    </div>
+    <div class="col-sm">
+    </div>
+    <div class="col-sm">
+      <form class="needs-validation" novalidate>
+  <div class="form-row">
+    <div class="col-md-4 mb-3">
+      <label for="validationCustom01">NOME</label>
+      <input type="text" class="form-control" id="validationCustom01" placeholder="NOME" value="Mario" required minlength="3">
+      <div class="valid-feedback">
+        Ben fatto
+      </div>
+      <div class="invalid-feedback">
+        Inserire un nome valido
+      </div>
+    </div>
+    <div class="col-md-4 mb-3">
+      <label for="validationCustom02">COGNOME</label>
+      <input type="text" class="form-control" id="validationCustom02" placeholder="COGNOME" value="Rossi" required minlength="3">
+      <div class="invalid-feedback">
+       Inserire un cognome valido
+      </div>
+      <div class="valid-feedback">
+        Ben fatto
+      </div>
+    </div>
+  <div class="form-row">
+    <div class="col-md-6 mb-3">
+      <label for="validationCustom03">CITTÀ</label>
+      <input type="text" class="form-control" id="validationCustom03" placeholder="CITTÀ" required>
+      <div class="invalid-feedback">
+        Inserire una città valida
+      </div>
+    </div>
+    <div class="col-md-3 mb-3">
+      <label for="validationCustom04">STATO</label>
+      <input type="text" class="form-control" id="validationCustom04" placeholder="STATO" required>
+      <div class="invalid-feedback">
+        Inserire uno Stato valido
+      </div>
+    </div>
+    <div class="col-md-3 mb-3">
+      <label for="validationCustom05">CAP</label>
+      <input type="number" class="form-control" id="validationCustom05" placeholder="CAP" required min="09000" max="09999">
+      <div class="invalid-feedback">
+        Inserire un CAP valido
+      </div>
+    </div>
+  </div>
+   <div class="col-md-9 mb-3">
+      <label for="validationCustom02">EMAIL</label>
+      <input type="email" class="form-control" id="validationCustom02" placeholder="Email" value="mariorossi@esempio.com" required minlength="3">
+      <div class="invalid-feedback">
+       Inserire un indirizzo mail valido
+      </div>
+      <div class="valid-feedback">
+        Ben fatto
+      </div>
+    </div>
+  <div class="form-group">
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+      <label class="form-check-label" for="invalidCheck">
+        Accetto termini e condizioni
+      </label>
+      <div class="invalid-feedback">
+        Devi accettare prima di convalidare
+      </div>
+    </div>
+  </div>
+  <button class="btn btn-dark btn-lg" type="submit">Convalida</button>
+ 
+</form>
+
+<script>
+// Example starter JavaScript for disabling form submissions if there are invalid fields
+(function() {
+  'use strict';
+  window.addEventListener('load', function() {
+    // Fetch all the forms we want to apply custom Bootstrap validation styles to
+    var forms = document.getElementsByClassName('needs-validation');
+    // Loop over them and prevent submission
+    var validation = Array.prototype.filter.call(forms, function(form) {
+      form.addEventListener('submit', function(event) {
+        if (form.checkValidity() === false) {
+          event.preventDefault();
+          event.stopPropagation();
+        }
+        form.classList.add('was-validated');
+      }, false);
+    });
+  }, false);
+})();
+</script>
+    </div>
+  </div>
+</div>
+
+
+<button type="button" class="btn btn-primary btn-lg btn-fb "><i class="fa fa-facebook pr-1"></i> Facebook</button>
+<button type="button" class="btn btn-tw"><i class="fa fa-twitter pr-1"></i> Twitter</button>
+<button type="button" class="btn btn-ins"><i class="fa fa-instagram pr-1"></i> Instagram</button>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+
+</body>
+</html>
